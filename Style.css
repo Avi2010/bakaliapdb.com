@@ -1,0 +1,710 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100px;
+    display: inline;
+}
+.navbar{
+    width: 1375px;
+    height: 40px;
+    margin: 0;
+    background-color: #683091;
+    box-shadow: 0 1px 5px #999999;
+    border-bottom: 4px solid #8bc643;
+}
+select{
+   margin-left: 250px;
+   margin-top: 10px; 
+   border-radius: 5px;
+   
+}
+ 
+.gobtn{
+    width: 30px;
+    height: 20px;
+    background: green;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    .gobtn a{
+        text-decoration: none;
+        color: white;
+    }
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.srch{
+    font-family: Arial;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    border-bottom: 5px;
+    
+}
+.btn{
+    width: 70px;
+    height: 25px;
+    border: 1px solid green;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.btnE{
+    width: 50px;
+    height: 25px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+}
+.logo{
+    width: 80px;
+    position: relative;
+    bottom: 300px;
+    left: 5%;
+}
+h2{
+    position: relative;
+    bottom: 440px;
+    color: white;
+    left: 5%;
+    font-size: 30px;
+}
+h1{
+    position: relative;
+    color: white;
+    bottom: 398px;
+    left: 12%;
+    font-weight: bold;
+    font-size: 25px;
+}
+p{
+    position: relative;
+    color: white;
+    bottom: 385px;
+    left: 12%;
+    font-size: 20px;
+    
+}
+
+.menu{
+    width: 1400px;
+    float: left;
+    height: 70px;
+}
+ ul{
+    float: left;
+    display: inline-flex;
+}
+ul button{
+    margin: 1px;
+    margin-top: 1px;
+}
+ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 12px;
+    width: 100px;
+    text-align: center; 
+}
+ul li a{
+    width: 150px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px 0;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+ul li .bi{
+    display: inline-flex;
+    font-size: 20px;
+    color: black;
+    margin-right: 50px;
+    padding: 5px 0;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+ul li .bi:hover{
+    color: white;
+}
+.btnH{
+    width: 100px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnH:hover{
+    background-color: orange;
+    color: white;
+        
+}
+.btnO{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnO:hover{
+    background-color: orange;
+          
+}
+.btnO li a{
+    color: orange;
+}
+.btnO li a:hover{
+    color: white;
+}
+.btnC{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnC:hover{
+    background-color: mediumseagreen;
+          
+}
+.btnC li a{
+    color: mediumseagreen;
+}
+.btnC li a:hover{
+    color: white;
+}
+.btnNC{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnNC:hover{
+    background-color: #683091;
+          
+}
+.btnNC li a{
+    color: #683091;
+}
+.btnNC li a:hover{
+    color: white;
+}
+.btnD{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnD:hover{
+    background-color: green;
+          
+}
+.btnD li a{
+    color: green;
+}
+.btnD li a:hover{
+    color: white;
+}
+.btnA{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnA:hover{
+    background-color: maroon;
+          
+}
+.btnA li a{
+    color: maroon;
+}
+.btnA li a:hover{
+    color: white;
+}
+.btnAC{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnAC:hover{
+    background-color: purple;
+          
+}
+.btnAC li a{
+    color: purple;
+}
+.btnAC li a:hover{
+    color: white;
+}
+.btnOM{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnOM:hover{
+    background-color: red;
+          
+}
+.btnOM li a{
+    color: red;
+}
+.btnOM li a:hover{
+    color: white;
+}
+.btnNM{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnNM:hover{
+    background-color: darkcyan;
+          
+}
+.btnNM li a{
+    color: darkcyan;
+}
+.btnNM li a:hover{
+    color: white;
+}
+.btnOT{
+    width: 135px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 1px 5px #999999;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btnOT:hover{
+    background-color: brown;
+          
+}
+.btnOT li a{
+    color: brown;
+}
+.btnOT li a:hover{
+    color: white;
+}
+.sub-menu-1{
+    display: none;
+       
+}
+.btnO:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnO:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnO:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted orange;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnO:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnC:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnC:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnC:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted green;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnC:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnNC:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnNC:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnNC:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted purple;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnNC:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnD:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnD:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnD:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted green;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnD:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnA:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnA:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnA:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted maroon;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnA:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnAC:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnAC:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnAC:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted purple;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnAC:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnOM:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnOM:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnOM:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted red;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnOM:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnNM:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnNM:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnNM:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted mediumseagreen;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnNM:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.btnOT:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btnOT:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.btnOT:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted brown;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.btnOT:hover .sub-menu-1 ul li a{
+    color: black;
+    font-size: 13px;
+}
+.bnr{
+    border: 2px solid red;
+    padding: 10px 10px;
+    margin: 40px 65px;  
+ 
+}
+#notice-board{
+    width: 100%;
+    padding: 20px 0;
+}
+.box{
+    height: 250px;
+    width: 1140px;
+    border: 1px solid #CCCCCC;
+    background-color: #efefef;
+    margin: 0px 70px;
+    display: flex;
+        
+}
+.list{
+    display: block;
+    margin: 45px;
+    
+}
+.list li{
+    margin-left: 110px;
+    margin: 5px 60px;
+                  
+}
+.list li a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 2px;
+        
+}
+.nb{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 400px -50px ;
+    
+
+}
+.menu{
+    width: 100%;
+    
+}
+.ad{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 400px -30px ; 
+}
+
+.sub-list1{
+    display: block;
+    margin: 45px;
+}
+.sub-list1 li{
+    margin: 2px -50px;
+}
+.sub-list1 li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: flex;
+}
+
+.box-1{
+    height: 150px;
+    width: 350px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px #999999;;
+    margin: 700px 70px;
+    display: flex;
+}
+.e-service{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 400px -30px ; 
+}
+
+.sub-list2{
+    display: block;
+    margin: 40px;
+}
+.sub-list2 li{
+    margin: 2px -10px;
+}
+.sub-list2 li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: flex;
+}
+
+.box-2{
+    height: 150px;
+    width: 350px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px #999999;;
+    margin: -850px 500px;
+    display: flex;
+}
+.d-service{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 400px -30px ; 
+}
+
+.sub-list3{
+    display: block;
+    margin: 40px;
+}
+.sub-list3 li{
+    margin: 2px -80px;
+}
+.sub-list3 li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: flex;
+}
+
+.box-3{
+    height: 150px;
+    width: 350px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px #999999;;
+    margin: 870px 70px;
+    display: flex;
+}
+.others{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 400px -30px ; 
+}
+
+.sub-list4{
+    display: block;
+    margin: 40px;
+}
+.sub-list4 li{
+    margin: 2px -10px;
+}
+.sub-list4 li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: flex;
+}
+
+.box-4{
+    height: 150px;
+    width: 350px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px #999999;;
+    margin: -1020px 500px;
+    display: flex;
+}
+
